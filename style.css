@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-: hidden;
+}
+
+body{
+    background-color: rgb(66, 66, 185);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2{
+    margin-top: 10px;
+    text-align: center;
+    color: rgb(82, 79, 79);
+    font-size: 23px;
+    overflow: hidden;
+}
+.container{
+   max-width: 600px;
+   width: 90%;
+   margin: auto;
+}
+
+.banner{
+    margin-top: -30px;
+    display: block;
+    width: 99.95%;
+    height: 350px;
+}
+
+.bg-2{
+     width: 99.95%;
+     height: 470px;
+     background-color: #fff;
+     position: relative;
+}
+
+.bg-2 h1{
+    text-align: center;
+    font-weight: 380;
+}
+
+form{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 19px;
+}
+
+form label{
+  font-weight: 550;
+  margin-left: -57%;
+  margin-bottom: -2%;
+}
+
+form input{
+    width: 70%;
+    height: 30px;
+    border: none;
+    border-bottom: 2px solid rgb(66, 66, 185);
+    outline: none;
+    font-size: 17.2px;
+    font-weight: 540;
+}
+
+.submit{
+    margin-top: 15px;
+    background-color: rgb(66, 66, 185);
+    color: #fff;
+    cursor: pointer;
+}
+
+.submit:hover{
+    transition: 0.9s all ease-in-out;
+    background-color: blue;
+}
+
+.login{
+    margin-top: 24px;
+    width: 70%;
+    height: 30px; 
+    color: rgb(82, 79, 79);
+    cursor: pointer;
+    border: 1px solid rgb(82, 79, 79);
+    outline: none;
+    font-size: 17.2px;
+    position: absolute;
+    left: 16%;
+    background-color: #fff;
+}
+
+.login:hover{
+    transition: 0.9s all ease-in-out;
+    background-color: rgb(66, 66, 185);
+    color: #fff;
+}
+
+#f-pass{
+    color: rgb(82, 79, 79);
+    align-self: flex-end;
+    padding-right: 44px;
+    cursor: pointer;
+}
